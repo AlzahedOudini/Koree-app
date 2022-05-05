@@ -1,0 +1,182 @@
+@media screen and (max-width: 968px) {
+    .hero{
+        .row_hero{
+            position: relative;
+            display: block;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .myfirst{
+                position: absolute;
+                
+                
+            }
+        }
+    }
+
+    .why{
+        .content_why{
+            flex-direction: column !important;
+            justify-content: center;
+            align-items: center;
+            gap: 6rem;
+            .service_card{
+                .content{
+                    width: 340px;
+                }
+            }
+        }
+    }
+    .other{
+        .content_about{
+            padding: 2rem;
+            .row{
+                display: block !important;
+                gap: 1rem;
+            }
+        }
+    }
+
+    .what_client{
+        .row{
+            gap: 3rem;
+            
+        }
+        .box_card{
+            .card_item{
+                width: 100%;
+            }
+        }
+        .box_comment{
+            .what_content{
+                position: relative;
+                text-align: center;
+            }
+        }
+    }
+
+    .app{
+        .content_app{
+            margin-left: 0rem;
+            margin-right: 0rem;
+            padding: 2rem;
+    
+            .container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .box_gold{
+                    gap: 1rem !important;
+                    display: flex;
+                    flex-direction: column;
+                    h3{
+                        font-size: 25px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .redirect_link1{
+        display: flex !important;
+    }
+    .redirect_link{
+        display: none !important;
+    }
+    .rae_content{
+        display: none !important;
+    }
+    .my_wave,.my_star{
+        width: 60px;
+        height: auto;
+    }
+    .my_star{
+        right: .1rem !important;
+    }
+    .row_hero{
+        margin-top: -2rem;
+        .box_gold{
+            display: flex;
+            align-items: center;
+            gap: .5rem !important;
+
+            .store,.play{
+                .my_btn{
+                    padding:  10px 10px;
+                    gap: .5rem;
+                    border-radius: 5px;
+                }
+                .m_img{
+                  img{
+                    width: 40px;
+                    height: auto;
+                }  
+                }
+                
+                h5{
+                    font-size: 12px;
+                }
+                h3{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .how{
+        margin-bottom: -12rem !important;
+        padding-bottom: -18rem !important;
+        .avant_cb{
+            gap: 5rem;
+            .active{
+                width: 100%;
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                position: relative;
+                .cercle{
+                    position: relative !important;
+                    display: flex !important;
+                    justify-content: center !important;
+                    align-items: center !important;
+                    img{
+                        position: relative !important;
+                        left: 0px !important;
+                        top: 0px !important;
+                    }
+                }
+            }
+            .content_box{
+
+                .cercle{
+                    margin-top: 2rem;
+                    width: 300px;
+                    height: 300px;
+                    img{
+                        
+                        width: 200px;
+                        top: -4rem;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .mycontact{
+        .riba{
+            padding: 4rem 2rem !important;
+            .box1{
+                padding: 0rem !important;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 568px) {
+    
+}
